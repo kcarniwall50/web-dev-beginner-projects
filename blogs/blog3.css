@@ -1,0 +1,43 @@
+
+
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(233, 241, 241);
+  
+
+}
+
+
+.container{
+  width:60%;
+margin:auto;
+
+
+}
+
+.container>small{
+  display: block;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.container>h3{
+  text-align:center;
+}
+
+.blog3{
+  line-height: 1.8;
+  word-spacing:1px;
+  letter-spacing: 1px;
+
+}
+
+
+.blog3>div>h4{
+  text-align:center;
+}
+
+#thank{
+  text-align:center;
+  }

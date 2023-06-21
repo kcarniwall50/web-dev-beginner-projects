@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog-2</title>
+  <link rel="stylesheet" href="/blogs/blog2.css">
+
+  <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREQAAABERABEREAABEREAAAEQAAEQAAAAARAAARAAAAABEAABEAAAAAEQAAEQAAAAABEREQAAAAAAAREQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AACH4QAAg8EAAPPPAADzzwAA888AAPPPAAD4HwAA/D8AAP//AAD//wAA//8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+ 
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <div class="container">
+  <h3>CommonJS vs. ES modules</h3>
+  <small><code>recently updated</code></small>
+  <div class="blog2">
+    <div>
+      <h4>What is a module?</h4>
+      <p>A module is simply isolated code that can be exported from one file and imported to another. In JavaScript, it’s a piece of self-contained exportable code. To be modular means to be interchangeable. The entire code for that particular section of your application can be uplifted, moved and reused as needed. </p>
+      <p>As our program grows bigger, it may contain many lines of code. Instead of putting everything in a single file, you can use modules to separate codes in separate files as per their functionality. This makes our code organized and easier to maintain.</p>
+    </div>
+
+    <div>
+      <h4>CommonJS vs. ES modules</h4>
+      <p>Since the very beginning of NodeJS, the CommonJS module system is the default module system within the ecosystem.  However, recently a new module system was added to NodeJS named ES module. </p>
+      <p>
+        In NodeJS each .js file is handled as a separate CommonJS module. This means that variables, functions, classes, etc. are not accessible to other files by default. You need to explicitly tell the module system which parts of your code should be exported.  </p>
+<p>
+This is done via the module.exports object or the exports shortcut, which are both available in every CommonJS module. Whenever you want to import code into a file, you use the require() function.</p>
+
+<p>
+  Since the 2015 edition of the underlying ECMAScript standard (ES2015) we actually have a standardized module system in the JavaScript language itself, which is simply called ES Modules.
+</br>
+It took a while before the browser vendors and the NodeJS maintainers actually fully implemented the standard.
+
+</p>
+<p>
+  Instead of the require() function for importing modules, we now use a specific import syntax.
+  </p>
+
+Also, instead of a specific module object, we now use the export keyword in front of our class declaration. This tells the compiler, which parts of the file should be accessible by other files.
+
+
+</p>
+
+     
+    </div>
+   
+  
+  </div>
+  
+  
+  <br>
+<div  id="thank"><small>Thankyou!</small></div>
+  
+  <br> <br> <br>
+</div>
+
+  
+</body>
+</html>
